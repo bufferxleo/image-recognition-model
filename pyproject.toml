@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "image-recognition-model"
+version = "0.1.0"
+description = ""
+authors = ["leocodeio <basicleo@787>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+tensorflow-io-gcs-filesystem = "*"
+tensorflow = "2.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
